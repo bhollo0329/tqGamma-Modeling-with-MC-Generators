@@ -6,3 +6,5 @@ Modeling includes:
   NLO t+q events using Pythia8
   
 LO events kinematic plots appear as a superpositon of NLO tqGamma and NLO tq plots. This leads to the conclusion that the combination of these NLO events should be sufficient in modeling the production of a top quark in associaiton with a photon.
+
+2020-2021
