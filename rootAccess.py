@@ -197,7 +197,7 @@ draw     = array('d',[0])
 #othphdr     = array('d',[0])
 
 
-
+#create branches for various variables
 treOut.Branch("EventNumber",EventNumber,"EventNumber/I")
 treOut.Branch("RunNumber",RunNumber,"RunNumber/I")
 treOut.Branch("weight",weight,"weight/D")
