@@ -51,7 +51,7 @@ for var in variables:
 
     hNtq = TH1D('hNtq', 'hNtq', var[2], var[3], var[4])
     hNtq.Sumw2()
-    t.Draw("%s >> hNtq" %var[0], "%.10f*weight" %ew)
+    t.Draw("%s >> hNtq" %var[0], "%.10f*weight" %ew) #%s is a place holder for a string
 
     leg = TLegend(0.63, 0.60, 0.78, 0.75)
     leg.AddEntry(hNtq, "NLOtq")
