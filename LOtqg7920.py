@@ -45,6 +45,7 @@ t = f.Get("selection")
 tw = f.Get("totalWeight").GetBinContent(1)
 ew = 1.0/(tw)
 
+#filling histograms by looping over list of variables
 for var in variables:
     c1 = TCanvas('c1', ' ', 1000, 1000)
       
